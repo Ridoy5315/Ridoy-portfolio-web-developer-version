@@ -242,3 +242,28 @@ footer textarea{
      padding-left: 30px;
      padding-top: 18px;
 }
+.hide{
+     display: none;
+}
+@media screen and (max-width:576px) {
+     .skill-container, .resume-container, nav, footer, .about-items{
+          flex-direction: column;
+     }
+     footer{
+          padding: 10px;
+     }
+     .footer-column{
+          width: calc(100% - 30px);
+     }
+     .about{
+          padding: 10px;
+          margin: 20px;
+     }
+     .banner{
+          flex-direction: column;
+          margin: 0 20px;
+     }
+     .banner-greetings{
+          margin-top: 50px;
+     }
+}
